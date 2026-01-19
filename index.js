@@ -83,9 +83,9 @@ app.get('/', (req, res) => { //req is request(from client) and res is response(f
 //     } catch (error) {
 //         res.status(500).json({message: error.message});
 //     }
-// });
+// }); Reet%401234
 
-mongoose.connect("mongodb+srv://reetsolanki:Reet%401234@cluster0.1wsbabz.mongodb.net/?appName=Cluster0")
+mongoose.connect("mongodb+srv://reetsolanki:<Password_from_MongoDB>@cluster0.1wsbabz.mongodb.net/?appName=Cluster0")
 .then(() => {
     console.log("Connected to the DataBase!");
     app.listen(3000, () => {
